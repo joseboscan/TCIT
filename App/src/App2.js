@@ -21,7 +21,7 @@ class App2 extends Component {
 
 componentWillMount() {
 
-    fetch('http://localhost:3200/list')
+    fetch('http://localhost:3200/list'+'?key=Ep0ooe44dw9bvxZvW38639MnuHfD91')
       .then((response) => {
         console.log('json.  ..',response)
            return response.json();
@@ -42,7 +42,7 @@ removeDatsFromserver(index)
       })})
     }
 
-    fetch('http://localhost:3200/remove?id='+indice)
+    fetch('http://localhost:3200/remove?id='+indice+'&key=Ep0ooe44dw9bvxZvW38639MnuHfD91')
       .then((response) => {
            return 1;
       })
@@ -60,7 +60,7 @@ removeDatsFromserver(index)
       this.setState({
         datsFromserver: [...this.state.datsFromserver, datsLocal]
       })
-    fetch('http://localhost:3200/insert?nombre='+datsLocal.name+'&description='+datsLocal.description)
+    fetch('http://localhost:3200/insert?nombre='+datsLocal.name+'&description='+datsLocal.description+'&key=Ep0ooe44dw9bvxZvW38639MnuHfD91')
       .then((response) => {
             return 1;
       })
