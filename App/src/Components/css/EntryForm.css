@@ -1,0 +1,19 @@
+.tarje{
+}
+
+.card{
+	height: 60px;
+}
+
+.card div{
+	 margin-top: 5px;
+padding-left: 15px;	
+}
+ .card input{
+padding-left: 3px;
+
+ }
+ .card button{
+padding-right: 10px;
+
+ }

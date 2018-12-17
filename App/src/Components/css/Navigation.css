@@ -1,0 +1,18 @@
+.Navigation {
+  text-align: left;
+  height: 40px;
+  background: gray;
+  padding-top: 10px;  
+}
+
+.Navigation nav{
+  
+ padding-left: 3%;
+ 
+}
+
+.Navigation a{
+padding-left: 7px;
+text-decoration: none;
+color:white; 
+}

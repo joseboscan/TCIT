@@ -1,0 +1,12 @@
+se debe tener instalado la app create-react-app sino se ejecuta
+	npm install -g create-react-app
+ir hasta el la direccion donde se realizara la instalacion
+	ejecutar create-react-app NombreApp
+luego entramos a la carpaeta y para iniciar la aplicacion ejecuta
+	npm start
+y luego de unos segundos se inica el server react
+
+// esta pagina crea gradientes css para aplicaciones
+https://uigradients.com/#Shifty
+
+	
